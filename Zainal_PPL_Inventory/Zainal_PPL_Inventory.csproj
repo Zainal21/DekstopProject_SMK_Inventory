@@ -1,0 +1,252 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{629EBDFB-09FB-4743-9F0C-2EC9D967C564}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Zainal_PPL_Inventory</RootNamespace>
+    <AssemblyName>Zainal_PPL_Inventory</AssemblyName>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bunifu.Core, Version=1.8.0.1, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9" />
+    <Reference Include="Bunifu.UI.WinForm.BunifuShadowPanel">
+      <HintPath>D:\Wordpress Master\New folder (2)\cap\Bunifu UI WinForms 1.8.0.1\Bunifu UI WinForms 1.8.0.1\Bunifu.UI.WinForm.BunifuShadowPanel.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuButton">
+      <HintPath>D:\Wordpress Master\New folder (2)\cap\Bunifu UI WinForms 1.8.0.1\Bunifu UI WinForms 1.8.0.1\Bunifu.UI.WinForms.BunifuButton.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuImageButton">
+      <HintPath>D:\Wordpress Master\New folder (2)\cap\Bunifu UI WinForms 1.8.0.1\Bunifu UI WinForms 1.8.0.1\Bunifu.UI.WinForms.BunifuImageButton.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuTextbox">
+      <HintPath>D:\Wordpress Master\New folder (2)\cap\Bunifu UI WinForms 1.8.0.1\Bunifu UI WinForms 1.8.0.1\Bunifu.UI.WinForms.BunifuTextbox.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu_UI_v1.5.4">
+      <HintPath>D:\Bahan untuk Desain\Dekstop Ui\Bunifu UI Winforms 1.5.4\Bunifu_UI_v1.5.4.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DatabaseManipulation.cs" />
+    <Compile Include="FLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FLogin.Designer.cs">
+      <DependentUpon>FLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fmasukannama.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fmasukannama.Designer.cs">
+      <DependentUpon>Fmasukannama.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fmenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fmenu.Designer.cs">
+      <DependentUpon>Fmenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Main.Designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UCDaftarKembali.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCDaftarKembali.Designer.cs">
+      <DependentUpon>UCDaftarKembali.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCDataBarang.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCDataBarang.Designer.cs">
+      <DependentUpon>UCDataBarang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCMasterUser.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCMasterUser.Designer.cs">
+      <DependentUpon>UCMasterUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCPeminjaman.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCPeminjaman.Designer.cs">
+      <DependentUpon>UCPeminjaman.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC_Pengembalian.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_Pengembalian.Designer.cs">
+      <DependentUpon>UC_Pengembalian.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="FLogin.resx">
+      <DependentUpon>FLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fmasukannama.resx">
+      <DependentUpon>Fmasukannama.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fmenu.resx">
+      <DependentUpon>Fmenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main.resx">
+      <DependentUpon>Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="UCDaftarKembali.resx">
+      <DependentUpon>UCDaftarKembali.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCDataBarang.resx">
+      <DependentUpon>UCDataBarang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCMasterUser.resx">
+      <DependentUpon>UCMasterUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCPeminjaman.resx">
+      <DependentUpon>UCPeminjaman.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_Pengembalian.resx">
+      <DependentUpon>UC_Pengembalian.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\agreement-business-clapping-990817.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_user_male_circle_filled_100px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\client_company_502px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\financial_dynamic_presentation_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user_group_man_man_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\order_history_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cloud Database_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shutdown_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\receipt_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\circled_chevron_left_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_user_male_circle_filled_100px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\agreement-business-clapping-9908171.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_about_80px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\submit_progress_24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\receipt_48px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\receipt_48px2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\click_and_collect_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user_group_man_woman_96px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\checked_24px2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\circled_chevron_left_50px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_synchronize_60px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_synchronize_60px1.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
