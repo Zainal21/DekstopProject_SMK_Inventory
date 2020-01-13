@@ -22,5 +22,16 @@ namespace Zainal_PPL_Inventory.Properties {
                 return defaultInstance;
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=DESKTOP-40C57RP;Initial Catalog=SMKInventoryDB;Integrated Security=Tr" +
+            "ue")]
+        public string SMKInventoryDBConnectionString {
+            get {
+                return ((string)(this["SMKInventoryDBConnectionString"]));
+            }
+        }
     }
 }

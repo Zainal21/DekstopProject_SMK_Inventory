@@ -20,3 +20,6 @@ C:\Users\zainal arifin\documents\visual studio 2012\Projects\Zainal_PPL_Inventor
 C:\Users\zainal arifin\documents\visual studio 2012\Projects\Zainal_PPL_Inventory\Zainal_PPL_Inventory\obj\Debug\Zainal_PPL_Inventory.UC_Pengembalian.resources
 C:\Users\zainal arifin\documents\visual studio 2012\Projects\Zainal_PPL_Inventory\Zainal_PPL_Inventory\obj\Debug\Zainal_PPL_Inventory.UCDaftarKembali.resources
 C:\Users\zainal arifin\documents\visual studio 2012\Projects\Zainal_PPL_Inventory\Zainal_PPL_Inventory\obj\Debug\Zainal_PPL_Inventory.Main.resources
+C:\Users\zainal arifin\documents\visual studio 2012\Projects\Zainal_PPL_Inventory\Zainal_PPL_Inventory\obj\Debug\Zainal_PPL_Inventory.Fcetak.resources
+C:\Users\zainal arifin\documents\visual studio 2012\Projects\Zainal_PPL_Inventory\Zainal_PPL_Inventory\obj\Debug\RdlCompile.cache
+C:\Users\zainal arifin\documents\visual studio 2012\Projects\Zainal_PPL_Inventory\Zainal_PPL_Inventory\obj\Debug\RdlCompile.compiled

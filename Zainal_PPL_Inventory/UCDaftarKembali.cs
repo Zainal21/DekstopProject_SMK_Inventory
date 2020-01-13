@@ -58,7 +58,8 @@ namespace Zainal_PPL_Inventory
 
         private void bunifuFlatButton1_Click(object sender, EventArgs e)
         {
-
+            Fcetak fc = new Fcetak();
+            fc.Show();
         }
     }
 }
