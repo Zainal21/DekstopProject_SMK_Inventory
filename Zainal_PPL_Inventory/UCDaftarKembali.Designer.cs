@@ -98,7 +98,7 @@
             this.bunifuFlatButton1.OnHovercolor = System.Drawing.Color.Red;
             this.bunifuFlatButton1.OnHoverTextColor = System.Drawing.Color.White;
             this.bunifuFlatButton1.selected = false;
-            this.bunifuFlatButton1.Size = new System.Drawing.Size(197, 48);
+            this.bunifuFlatButton1.Size = new System.Drawing.Size(159, 65);
             this.bunifuFlatButton1.TabIndex = 48;
             this.bunifuFlatButton1.Text = "Cetak Laporan";
             this.bunifuFlatButton1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -128,13 +128,13 @@
             this.bunifuFlatButton2.IconVisible = true;
             this.bunifuFlatButton2.IconZoom = 90D;
             this.bunifuFlatButton2.IsTab = false;
-            this.bunifuFlatButton2.Location = new System.Drawing.Point(603, 552);
+            this.bunifuFlatButton2.Location = new System.Drawing.Point(541, 552);
             this.bunifuFlatButton2.Name = "bunifuFlatButton2";
             this.bunifuFlatButton2.Normalcolor = System.Drawing.Color.DarkRed;
             this.bunifuFlatButton2.OnHovercolor = System.Drawing.Color.DarkRed;
             this.bunifuFlatButton2.OnHoverTextColor = System.Drawing.Color.White;
             this.bunifuFlatButton2.selected = false;
-            this.bunifuFlatButton2.Size = new System.Drawing.Size(134, 48);
+            this.bunifuFlatButton2.Size = new System.Drawing.Size(156, 65);
             this.bunifuFlatButton2.TabIndex = 49;
             this.bunifuFlatButton2.Text = "Refresh";
             this.bunifuFlatButton2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;

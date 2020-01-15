@@ -12,6 +12,7 @@ using System.Drawing;
 using System.Windows.Forms;
 using System.Globalization;
 using System.Data.SqlClient;
+using System.Security.Cryptography;
 
 
 namespace Zainal_PPL_Inventory
@@ -54,6 +55,21 @@ namespace Zainal_PPL_Inventory
             CMD = new SqlCommand(_query, CONN);
             CMD.ExecuteNonQuery();
         }
+
+        //enkripsi password
+        public string getMD5Hash(String Password)
+        {
+            MD5 md5 = new MD5CryptoServiceProvider();
+            md5.ComputeHash(ASCIIEncoding.ASCII.GetBytes(Password));
+            byte[] result = md5.Hash;
+
+            StringBuilder stb = new StringBuilder();
+           for(int i = 0; i< result.Length;i++){
+                stb.Append(result[i].ToString("x2"));
+           }
+            return stb.ToString();
+        }
+        
 
 
     }

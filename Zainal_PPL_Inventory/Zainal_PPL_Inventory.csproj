@@ -101,11 +101,7 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SMKInventoryDBDataSet.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>SMKInventoryDBDataSet.xsd</DependentUpon>
-    </Compile>
+    <Compile Include="SMKInventoryDBDataSet.cs" />
     <Compile Include="UCDaftarKembali.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -185,17 +181,6 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <None Include="SMKInventoryDBDataSet.xsc">
-      <DependentUpon>SMKInventoryDBDataSet.xsd</DependentUpon>
-    </None>
-    <None Include="SMKInventoryDBDataSet.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>SMKInventoryDBDataSet.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="SMKInventoryDBDataSet.xss">
-      <DependentUpon>SMKInventoryDBDataSet.xsd</DependentUpon>
-    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

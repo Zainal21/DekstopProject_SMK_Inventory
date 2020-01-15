@@ -42,9 +42,11 @@ namespace Zainal_PPL_Inventory
             else
             {
                 SqlDataReader DR;
+                DatabaseManipulation DM = new DatabaseManipulation();
+                DM.Koneksi();
                 CONN.ConnectionString = "Data Source=DESKTOP-40C57RP;Initial Catalog=SMKInventoryDB;Integrated Security=True";
                 CONN.Open();
-                CMD = new SqlCommand("SELECT * FROM Member WHERE username='" + txtusername.Text + "'AND password='" + txtpassword.Text + "'", CONN);
+                CMD = new SqlCommand("SELECT * FROM Member WHERE username='" + txtusername.Text + "'AND password='" + DM.getMD5Hash(txtpassword.Text) + "'", CONN);
                 DR = CMD.ExecuteReader();
                 DR.Read();
                 if (DR.HasRows)

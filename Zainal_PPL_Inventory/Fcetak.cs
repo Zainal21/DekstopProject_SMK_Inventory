@@ -19,10 +19,15 @@ namespace Zainal_PPL_Inventory
 
         private void Fcetak_Load(object sender, EventArgs e)
         {
+            // TODO: This line of code loads data into the 'SMKInventoryDBDataSet1.pengambalian' table. You can move, or remove it, as needed.
+            this.pengambalianTableAdapter.Fill(this.SMKInventoryDBDataSet1.pengambalian);
             // TODO: This line of code loads data into the 'SMKInventoryDBDataSet.pengambalian' table. You can move, or remove it, as needed.
-            this.pengambalianTableAdapter.Fill(this.SMKInventoryDBDataSet.pengambalian);
+           
+        }
 
-            this.reportViewer1.RefreshReport();
+        private void reportViewer1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

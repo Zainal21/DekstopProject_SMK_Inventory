@@ -87,7 +87,7 @@ namespace Zainal_PPL_Inventory
                 {
                     DatabaseManipulation DM = new DatabaseManipulation();
                     DM.Koneksi();
-                    DM.querysql("INSERT INTO Member VALUES('" + txtid.Text + "','" + txtusername.Text + "','" + txtpass.Text + "','" + txtnama.Text + "','" + cbrole.Text + "')");
+                    DM.querysql("INSERT INTO Member VALUES('" + txtid.Text + "','" + txtusername.Text + "','" + DM.getMD5Hash(txtpass.Text) + "','" + txtnama.Text + "','" + cbrole.Text + "')");
                     MessageBox.Show("Data User Berhasil Ditambahkan", "Informasi", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     showdata();
                     clear();

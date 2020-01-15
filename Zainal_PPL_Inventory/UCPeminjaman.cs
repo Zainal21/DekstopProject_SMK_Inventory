@@ -42,7 +42,7 @@ namespace Zainal_PPL_Inventory
             txtnama.Clear();
             txtkondisi.Clear();
             txtstatus.Clear();
-            txtnamapeminjam.Text = "";
+          
         }
 
         private void txtnamapeminjam_OnValueChanged(object sender, EventArgs e)

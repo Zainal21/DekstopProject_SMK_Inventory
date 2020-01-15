@@ -31,59 +31,48 @@
             this.components = new System.ComponentModel.Container();
             Microsoft.Reporting.WinForms.ReportDataSource reportDataSource1 = new Microsoft.Reporting.WinForms.ReportDataSource();
             this.reportViewer1 = new Microsoft.Reporting.WinForms.ReportViewer();
-            this.SMKInventoryDBDataSet = new Zainal_PPL_Inventory.SMKInventoryDBDataSet();
-            this.pengambalianBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.pengambalianTableAdapter = new Zainal_PPL_Inventory.SMKInventoryDBDataSetTableAdapters.pengambalianTableAdapter();
-            ((System.ComponentModel.ISupportInitialize)(this.SMKInventoryDBDataSet)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pengambalianBindingSource)).BeginInit();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // reportViewer1
             // 
-            this.reportViewer1.Dock = System.Windows.Forms.DockStyle.Fill;
             reportDataSource1.Name = "DataSet1";
-            reportDataSource1.Value = this.pengambalianBindingSource;
             this.reportViewer1.LocalReport.DataSources.Add(reportDataSource1);
-            this.reportViewer1.Location = new System.Drawing.Point(0, 0);
+            this.reportViewer1.LocalReport.ReportEmbeddedResource = "Zainal_PPL_Inventory.Report1.rdlc";
+            this.reportViewer1.Location = new System.Drawing.Point(12, 68);
             this.reportViewer1.Name = "reportViewer1";
-            this.reportViewer1.ProcessingMode = Microsoft.Reporting.WinForms.ProcessingMode.Remote;
-            this.reportViewer1.Size = new System.Drawing.Size(876, 520);
+            this.reportViewer1.Size = new System.Drawing.Size(852, 384);
             this.reportViewer1.TabIndex = 0;
+            this.reportViewer1.Load += new System.EventHandler(this.reportViewer1_Load);
             // 
-            // SMKInventoryDBDataSet
+            // label1
             // 
-            this.SMKInventoryDBDataSet.DataSetName = "SMKInventoryDBDataSet";
-            this.SMKInventoryDBDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // pengambalianBindingSource
-            // 
-            this.pengambalianBindingSource.DataMember = "pengambalian";
-            this.pengambalianBindingSource.DataSource = this.SMKInventoryDBDataSet;
-            // 
-            // pengambalianTableAdapter
-            // 
-            this.pengambalianTableAdapter.ClearBeforeFill = true;
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Century Gothic", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(287, 9);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(268, 41);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "Cetak Laporan";
             // 
             // Fcetak
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(876, 520);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.reportViewer1);
             this.Name = "Fcetak";
             this.Text = "Fcetak";
             this.Load += new System.EventHandler(this.Fcetak_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.SMKInventoryDBDataSet)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pengambalianBindingSource)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
         private Microsoft.Reporting.WinForms.ReportViewer reportViewer1;
-        private System.Windows.Forms.BindingSource pengambalianBindingSource;
-        private SMKInventoryDBDataSet SMKInventoryDBDataSet;
-        private SMKInventoryDBDataSetTableAdapters.pengambalianTableAdapter pengambalianTableAdapter;
+        private System.Windows.Forms.Label label1;
     }
 }
