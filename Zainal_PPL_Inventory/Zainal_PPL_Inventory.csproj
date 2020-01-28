@@ -119,6 +119,18 @@
     <Compile Include="UCDataBarang.Designer.cs">
       <DependentUpon>UCDataBarang.cs</DependentUpon>
     </Compile>
+    <Compile Include="UCInfo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCInfo.Designer.cs">
+      <DependentUpon>UCInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCLogin.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCLogin.Designer.cs">
+      <DependentUpon>UCLogin.cs</DependentUpon>
+    </Compile>
     <Compile Include="UCMasterUser.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -130,6 +142,12 @@
     </Compile>
     <Compile Include="UCPeminjaman.Designer.cs">
       <DependentUpon>UCPeminjaman.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCRegistration.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCRegistration.Designer.cs">
+      <DependentUpon>UCRegistration.cs</DependentUpon>
     </Compile>
     <Compile Include="UC_Pengembalian.cs">
       <SubType>UserControl</SubType>
@@ -169,11 +187,20 @@
     <EmbeddedResource Include="UCDataBarang.resx">
       <DependentUpon>UCDataBarang.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="UCInfo.resx">
+      <DependentUpon>UCInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCLogin.resx">
+      <DependentUpon>UCLogin.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UCMasterUser.resx">
       <DependentUpon>UCMasterUser.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UCPeminjaman.resx">
       <DependentUpon>UCPeminjaman.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCRegistration.resx">
+      <DependentUpon>UCRegistration.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UC_Pengembalian.resx">
       <DependentUpon>UC_Pengembalian.cs</DependentUpon>
@@ -270,6 +297,21 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\icons8_synchronize_60px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\circled_chevron_left_50px2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\client_company_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\business_conference_female_speaker_96px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\business_conference_female_speaker_96px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user_group_man_woman_96px1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

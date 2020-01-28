@@ -145,12 +145,17 @@ namespace Zainal_PPL_Inventory
 
         private void bunifuFlatButton3_Click(object sender, EventArgs e)
         {
+            
+
+        }
+
+        private void bunifuFlatButton3_Click_1(object sender, EventArgs e)
+        {
             showdata();
             refreshform();
             txtid.ReadOnly = false;
             bunifuFlatButton1.Enabled = true;
             MessageBox.Show("Data Berhasil Disegarkan", "Konfirmasi Data", MessageBoxButtons.OK, MessageBoxIcon.Information);
-
         }
 
         

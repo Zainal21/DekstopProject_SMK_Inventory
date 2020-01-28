@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UCPeminjaman));
             this.panel1 = new System.Windows.Forms.Panel();
             this.txtidpinjam = new Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox();
@@ -42,6 +43,7 @@
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.label12 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
             this.label4 = new System.Windows.Forms.Label();
@@ -55,6 +57,7 @@
             this.bunifuFlatButton1 = new Bunifu.Framework.UI.BunifuFlatButton();
             this.btnpinjam = new Bunifu.Framework.UI.BunifuFlatButton();
             this.bunifuShadowPanel1 = new Bunifu.UI.WinForm.BunifuShadowPanel.BunifuShadowPanel();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel4.SuspendLayout();
@@ -366,11 +369,23 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.Black;
+            this.panel2.Controls.Add(this.label12);
             this.panel2.Controls.Add(this.label1);
             this.panel2.Location = new System.Drawing.Point(24, 53);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(425, 61);
             this.panel2.TabIndex = 1;
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.label12.Location = new System.Drawing.Point(299, 28);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(40, 17);
+            this.label12.TabIndex = 9;
+            this.label12.Text = "label";
             // 
             // label1
             // 
@@ -379,9 +394,9 @@
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.label1.Location = new System.Drawing.Point(11, 13);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(181, 33);
+            this.label1.Size = new System.Drawing.Size(226, 33);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Peminjaman";
+            this.label1.Text = "List Peminjaman";
             // 
             // panel4
             // 
@@ -537,7 +552,7 @@
             this.btnpinjam.IconVisible = true;
             this.btnpinjam.IconZoom = 50D;
             this.btnpinjam.IsTab = false;
-            this.btnpinjam.Location = new System.Drawing.Point(292, 13);
+            this.btnpinjam.Location = new System.Drawing.Point(281, 13);
             this.btnpinjam.Name = "btnpinjam";
             this.btnpinjam.Normalcolor = System.Drawing.Color.DeepSkyBlue;
             this.btnpinjam.OnHovercolor = System.Drawing.Color.DodgerBlue;
@@ -562,6 +577,10 @@
             this.bunifuShadowPanel1.ShadowTopLeftVisible = false;
             this.bunifuShadowPanel1.Size = new System.Drawing.Size(712, 62);
             this.bunifuShadowPanel1.TabIndex = 5;
+            // 
+            // timer1
+            // 
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // UCPeminjaman
             // 
@@ -623,5 +642,7 @@
         private Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox txtidpinjam;
         private System.Windows.Forms.Label label11;
         private Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton1;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Timer timer1;
     }
 }

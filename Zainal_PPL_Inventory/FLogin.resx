@@ -120,26 +120,4 @@
   <metadata name="bunifuElipse1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
-  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>25</value>
-  </metadata>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="bunifuButton2.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAAHcAAAAtCAYAAACULPQbAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACXSURBVHhe7dExEYAwAMDAagJD2AAzuCjy4NgxQO6HnzJm
-        LMe1rcd10/J+HV+BBnPDzA0zN8zcMHPDzA0zN8zcMHPDzA0zN8zcMHPDzA0zN8zcMHPDzA0zN8zcMHPD
-        zA0zN8zcMHPDzA0zN8zcMHPDzA0zN8zcMHPDzA0zN8zcMHPDzA0zN8zcMHPDzA0b6z7Pr8DP7fN8AH5q
-        7b2T7zhHAAAAAElFTkSuQmCC
-</value>
-  </data>
-  <data name="bunifuButton1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAAHcAAAAtCAYAAACULPQbAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACXSURBVHhe7dExEYAwAMDAagJD2AAzuCjy4NgxQO6HnzJm
-        LMe1rcd10/J+HV+BBnPDzA0zN8zcMHPDzA0zN8zcMHPDzA0zN8zcMHPDzA0zN8zcMHPDzA0zN8zcMHPD
-        zA0zN8zcMHPDzA0zN8zcMHPDzA0zN8zcMHPDzA0zN8zcMHPDzA0zN8zcMHPDzA0b6z7Pr8DP7fN8AH5q
-        7b2T7zhHAAAAAElFTkSuQmCC
-</value>
-  </data>
 </root>

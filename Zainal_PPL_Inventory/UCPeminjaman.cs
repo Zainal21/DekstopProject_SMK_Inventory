@@ -53,6 +53,7 @@ namespace Zainal_PPL_Inventory
         private void UCPeminjaman_Load(object sender, EventArgs e)
         {
             showdata();
+            label12.Text = DateTime.Now.ToLongTimeString();
         }
         private void showdata()
         {
@@ -129,6 +130,11 @@ namespace Zainal_PPL_Inventory
         {
             showdata();
             MessageBox.Show("Data Berhasil Disegarkan", "Konfirmasi Data", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+
         }
 
        

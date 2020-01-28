@@ -31,7 +31,7 @@
             this.bunifuShadowPanel1 = new Bunifu.UI.WinForm.BunifuShadowPanel.BunifuShadowPanel();
             this.label5 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.bunifuFlatButton1 = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.btnkembalikan = new Bunifu.Framework.UI.BunifuFlatButton();
             this.bunifuFlatButton2 = new Bunifu.Framework.UI.BunifuFlatButton();
             this.bunifuShadowPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -70,54 +70,56 @@
             this.dataGridView1.TabIndex = 47;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
-            // bunifuFlatButton1
+            // btnkembalikan
             // 
-            this.bunifuFlatButton1.Active = false;
-            this.bunifuFlatButton1.Activecolor = System.Drawing.Color.Red;
-            this.bunifuFlatButton1.BackColor = System.Drawing.Color.Red;
-            this.bunifuFlatButton1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.bunifuFlatButton1.BorderRadius = 0;
-            this.bunifuFlatButton1.ButtonText = "Cetak Laporan";
-            this.bunifuFlatButton1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuFlatButton1.DisabledColor = System.Drawing.Color.Gray;
-            this.bunifuFlatButton1.Iconcolor = System.Drawing.Color.Transparent;
-            this.bunifuFlatButton1.Iconimage = global::Zainal_PPL_Inventory.Properties.Resources.receipt_48px1;
-            this.bunifuFlatButton1.Iconimage_right = null;
-            this.bunifuFlatButton1.Iconimage_right_Selected = null;
-            this.bunifuFlatButton1.Iconimage_Selected = null;
-            this.bunifuFlatButton1.IconMarginLeft = 0;
-            this.bunifuFlatButton1.IconMarginRight = 0;
-            this.bunifuFlatButton1.IconRightVisible = true;
-            this.bunifuFlatButton1.IconRightZoom = 0D;
-            this.bunifuFlatButton1.IconVisible = true;
-            this.bunifuFlatButton1.IconZoom = 90D;
-            this.bunifuFlatButton1.IsTab = false;
-            this.bunifuFlatButton1.Location = new System.Drawing.Point(376, 552);
-            this.bunifuFlatButton1.Name = "bunifuFlatButton1";
-            this.bunifuFlatButton1.Normalcolor = System.Drawing.Color.Red;
-            this.bunifuFlatButton1.OnHovercolor = System.Drawing.Color.Red;
-            this.bunifuFlatButton1.OnHoverTextColor = System.Drawing.Color.White;
-            this.bunifuFlatButton1.selected = false;
-            this.bunifuFlatButton1.Size = new System.Drawing.Size(159, 65);
-            this.bunifuFlatButton1.TabIndex = 48;
-            this.bunifuFlatButton1.Text = "Cetak Laporan";
-            this.bunifuFlatButton1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.bunifuFlatButton1.Textcolor = System.Drawing.Color.White;
-            this.bunifuFlatButton1.TextFont = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.bunifuFlatButton1.Click += new System.EventHandler(this.bunifuFlatButton1_Click);
+            this.btnkembalikan.Active = false;
+            this.btnkembalikan.Activecolor = System.Drawing.Color.DodgerBlue;
+            this.btnkembalikan.BackColor = System.Drawing.Color.DarkRed;
+            this.btnkembalikan.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnkembalikan.BorderRadius = 5;
+            this.btnkembalikan.ButtonText = "Refresh";
+            this.btnkembalikan.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnkembalikan.DisabledColor = System.Drawing.Color.Gray;
+            this.btnkembalikan.ForeColor = System.Drawing.Color.White;
+            this.btnkembalikan.Iconcolor = System.Drawing.Color.Transparent;
+            this.btnkembalikan.Iconimage = global::Zainal_PPL_Inventory.Properties.Resources.circled_chevron_left_50px1;
+            this.btnkembalikan.Iconimage_right = null;
+            this.btnkembalikan.Iconimage_right_Selected = null;
+            this.btnkembalikan.Iconimage_Selected = null;
+            this.btnkembalikan.IconMarginLeft = 0;
+            this.btnkembalikan.IconMarginRight = 0;
+            this.btnkembalikan.IconRightVisible = true;
+            this.btnkembalikan.IconRightZoom = 0D;
+            this.btnkembalikan.IconVisible = true;
+            this.btnkembalikan.IconZoom = 50D;
+            this.btnkembalikan.IsTab = false;
+            this.btnkembalikan.Location = new System.Drawing.Point(548, 566);
+            this.btnkembalikan.Name = "btnkembalikan";
+            this.btnkembalikan.Normalcolor = System.Drawing.Color.DarkRed;
+            this.btnkembalikan.OnHovercolor = System.Drawing.Color.Maroon;
+            this.btnkembalikan.OnHoverTextColor = System.Drawing.Color.White;
+            this.btnkembalikan.selected = false;
+            this.btnkembalikan.Size = new System.Drawing.Size(179, 53);
+            this.btnkembalikan.TabIndex = 49;
+            this.btnkembalikan.Text = "Refresh";
+            this.btnkembalikan.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btnkembalikan.Textcolor = System.Drawing.Color.White;
+            this.btnkembalikan.TextFont = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnkembalikan.Click += new System.EventHandler(this.btnkembalikan_Click);
             // 
             // bunifuFlatButton2
             // 
             this.bunifuFlatButton2.Active = false;
-            this.bunifuFlatButton2.Activecolor = System.Drawing.Color.DarkRed;
+            this.bunifuFlatButton2.Activecolor = System.Drawing.Color.DodgerBlue;
             this.bunifuFlatButton2.BackColor = System.Drawing.Color.DarkRed;
             this.bunifuFlatButton2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.bunifuFlatButton2.BorderRadius = 0;
-            this.bunifuFlatButton2.ButtonText = "Refresh";
+            this.bunifuFlatButton2.BorderRadius = 5;
+            this.bunifuFlatButton2.ButtonText = "Cetak";
             this.bunifuFlatButton2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.bunifuFlatButton2.DisabledColor = System.Drawing.Color.Gray;
+            this.bunifuFlatButton2.ForeColor = System.Drawing.Color.White;
             this.bunifuFlatButton2.Iconcolor = System.Drawing.Color.Transparent;
-            this.bunifuFlatButton2.Iconimage = global::Zainal_PPL_Inventory.Properties.Resources.icons8_synchronize_60px1;
+            this.bunifuFlatButton2.Iconimage = global::Zainal_PPL_Inventory.Properties.Resources.circled_chevron_left_50px1;
             this.bunifuFlatButton2.Iconimage_right = null;
             this.bunifuFlatButton2.Iconimage_right_Selected = null;
             this.bunifuFlatButton2.Iconimage_Selected = null;
@@ -126,28 +128,28 @@
             this.bunifuFlatButton2.IconRightVisible = true;
             this.bunifuFlatButton2.IconRightZoom = 0D;
             this.bunifuFlatButton2.IconVisible = true;
-            this.bunifuFlatButton2.IconZoom = 90D;
+            this.bunifuFlatButton2.IconZoom = 50D;
             this.bunifuFlatButton2.IsTab = false;
-            this.bunifuFlatButton2.Location = new System.Drawing.Point(541, 552);
+            this.bunifuFlatButton2.Location = new System.Drawing.Point(338, 566);
             this.bunifuFlatButton2.Name = "bunifuFlatButton2";
             this.bunifuFlatButton2.Normalcolor = System.Drawing.Color.DarkRed;
-            this.bunifuFlatButton2.OnHovercolor = System.Drawing.Color.DarkRed;
+            this.bunifuFlatButton2.OnHovercolor = System.Drawing.Color.Maroon;
             this.bunifuFlatButton2.OnHoverTextColor = System.Drawing.Color.White;
             this.bunifuFlatButton2.selected = false;
-            this.bunifuFlatButton2.Size = new System.Drawing.Size(156, 65);
-            this.bunifuFlatButton2.TabIndex = 49;
-            this.bunifuFlatButton2.Text = "Refresh";
-            this.bunifuFlatButton2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.bunifuFlatButton2.Size = new System.Drawing.Size(179, 53);
+            this.bunifuFlatButton2.TabIndex = 50;
+            this.bunifuFlatButton2.Text = "Cetak";
+            this.bunifuFlatButton2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.bunifuFlatButton2.Textcolor = System.Drawing.Color.White;
-            this.bunifuFlatButton2.TextFont = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.bunifuFlatButton2.Click += new System.EventHandler(this.bunifuFlatButton2_Click);
+            this.bunifuFlatButton2.TextFont = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuFlatButton2.Click += new System.EventHandler(this.bunifuFlatButton2_Click_1);
             // 
             // UCDaftarKembali
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.bunifuFlatButton2);
-            this.Controls.Add(this.bunifuFlatButton1);
+            this.Controls.Add(this.btnkembalikan);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.bunifuShadowPanel1);
             this.Name = "UCDaftarKembali";
@@ -165,7 +167,7 @@
         private Bunifu.UI.WinForm.BunifuShadowPanel.BunifuShadowPanel bunifuShadowPanel1;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton1;
+        private Bunifu.Framework.UI.BunifuFlatButton btnkembalikan;
         private Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton2;
     }
 }

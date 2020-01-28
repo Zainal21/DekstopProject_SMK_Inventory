@@ -77,7 +77,7 @@
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label3.Location = new System.Drawing.Point(332, 165);
+            this.label3.Location = new System.Drawing.Point(332, 151);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(123, 21);
             this.label3.TabIndex = 10;
@@ -85,26 +85,28 @@
             // 
             // cbkondisi
             // 
+            this.cbkondisi.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbkondisi.FormattingEnabled = true;
             this.cbkondisi.Items.AddRange(new object[] {
             "Bagus",
             "Buruk"});
-            this.cbkondisi.Location = new System.Drawing.Point(336, 189);
+            this.cbkondisi.Location = new System.Drawing.Point(336, 180);
             this.cbkondisi.MinimumSize = new System.Drawing.Size(100, 0);
             this.cbkondisi.Name = "cbkondisi";
-            this.cbkondisi.Size = new System.Drawing.Size(279, 21);
+            this.cbkondisi.Size = new System.Drawing.Size(279, 30);
             this.cbkondisi.TabIndex = 12;
             // 
             // cbstatus
             // 
+            this.cbstatus.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbstatus.FormattingEnabled = true;
             this.cbstatus.Items.AddRange(new object[] {
             "Tersedia",
             "Tidak Tersedia"});
-            this.cbstatus.Location = new System.Drawing.Point(336, 250);
+            this.cbstatus.Location = new System.Drawing.Point(336, 241);
             this.cbstatus.MinimumSize = new System.Drawing.Size(100, 0);
             this.cbstatus.Name = "cbstatus";
-            this.cbstatus.Size = new System.Drawing.Size(279, 21);
+            this.cbstatus.Size = new System.Drawing.Size(279, 30);
             this.cbstatus.TabIndex = 28;
             // 
             // label4
@@ -113,7 +115,7 @@
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label4.Location = new System.Drawing.Point(332, 226);
+            this.label4.Location = new System.Drawing.Point(332, 213);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(120, 21);
             this.label4.TabIndex = 27;
@@ -352,16 +354,15 @@
             // bunifuFlatButton3
             // 
             this.bunifuFlatButton3.Active = false;
-            this.bunifuFlatButton3.Activecolor = System.Drawing.Color.DodgerBlue;
-            this.bunifuFlatButton3.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.bunifuFlatButton3.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.bunifuFlatButton3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.bunifuFlatButton3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.bunifuFlatButton3.BorderRadius = 5;
-            this.bunifuFlatButton3.ButtonText = "REFRESH";
+            this.bunifuFlatButton3.BorderRadius = 0;
+            this.bunifuFlatButton3.ButtonText = "Refresh";
             this.bunifuFlatButton3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.bunifuFlatButton3.DisabledColor = System.Drawing.Color.Gray;
-            this.bunifuFlatButton3.ForeColor = System.Drawing.Color.White;
             this.bunifuFlatButton3.Iconcolor = System.Drawing.Color.Transparent;
-            this.bunifuFlatButton3.Iconimage = global::Zainal_PPL_Inventory.Properties.Resources.icons8_synchronize_60px;
+            this.bunifuFlatButton3.Iconimage = ((System.Drawing.Image)(resources.GetObject("bunifuFlatButton3.Iconimage")));
             this.bunifuFlatButton3.Iconimage_right = null;
             this.bunifuFlatButton3.Iconimage_right_Selected = null;
             this.bunifuFlatButton3.Iconimage_Selected = null;
@@ -370,21 +371,22 @@
             this.bunifuFlatButton3.IconRightVisible = true;
             this.bunifuFlatButton3.IconRightZoom = 0D;
             this.bunifuFlatButton3.IconVisible = true;
-            this.bunifuFlatButton3.IconZoom = 50D;
+            this.bunifuFlatButton3.IconZoom = 90D;
             this.bunifuFlatButton3.IsTab = false;
-            this.bunifuFlatButton3.Location = new System.Drawing.Point(913, 175);
+            this.bunifuFlatButton3.Location = new System.Drawing.Point(781, 175);
+            this.bunifuFlatButton3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.bunifuFlatButton3.Name = "bunifuFlatButton3";
-            this.bunifuFlatButton3.Normalcolor = System.Drawing.Color.DeepSkyBlue;
-            this.bunifuFlatButton3.OnHovercolor = System.Drawing.Color.DodgerBlue;
+            this.bunifuFlatButton3.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.bunifuFlatButton3.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.bunifuFlatButton3.OnHoverTextColor = System.Drawing.Color.White;
             this.bunifuFlatButton3.selected = false;
-            this.bunifuFlatButton3.Size = new System.Drawing.Size(124, 35);
+            this.bunifuFlatButton3.Size = new System.Drawing.Size(126, 42);
             this.bunifuFlatButton3.TabIndex = 50;
-            this.bunifuFlatButton3.Text = "REFRESH";
-            this.bunifuFlatButton3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.bunifuFlatButton3.Text = "Refresh";
+            this.bunifuFlatButton3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.bunifuFlatButton3.Textcolor = System.Drawing.Color.White;
             this.bunifuFlatButton3.TextFont = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuFlatButton3.Click += new System.EventHandler(this.bunifuFlatButton3_Click);
+            this.bunifuFlatButton3.Click += new System.EventHandler(this.bunifuFlatButton3_Click_1);
             // 
             // UCDataBarang
             // 

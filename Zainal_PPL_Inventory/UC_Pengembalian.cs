@@ -29,6 +29,7 @@ namespace Zainal_PPL_Inventory
 
         private void UC_Pengembalian_Load(object sender, EventArgs e)
         {
+            label13.Text = DateTime.Now.ToLongTimeString();
             showdata();
         }
         private void showdata()
@@ -109,8 +110,23 @@ namespace Zainal_PPL_Inventory
 
         private void bunifuFlatButton1_Click(object sender, EventArgs e)
         {
+           
+        }
+
+        private void panel3_Paint(object sender, PaintEventArgs e)
+        {
+           
+        }
+
+        private void bunifuFlatButton1_Click_1(object sender, EventArgs e)
+        {
             showdata();
             MessageBox.Show("Data Berhasil Disegarkan", "Konfirmasi Data", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            
         }
 
       

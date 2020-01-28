@@ -93,6 +93,26 @@ namespace Zainal_PPL_Inventory.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap business_conference_female_speaker_96px {
+            get {
+                object obj = ResourceManager.GetObject("business_conference_female_speaker_96px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap business_conference_female_speaker_96px1 {
+            get {
+                object obj = ResourceManager.GetObject("business_conference_female_speaker_96px1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap checked_24px2 {
             get {
                 object obj = ResourceManager.GetObject("checked_24px2", resourceCulture);
@@ -123,6 +143,16 @@ namespace Zainal_PPL_Inventory.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap circled_chevron_left_50px2 {
+            get {
+                object obj = ResourceManager.GetObject("circled_chevron_left_50px2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap click_and_collect_48px {
             get {
                 object obj = ResourceManager.GetObject("click_and_collect_48px", resourceCulture);
@@ -136,6 +166,16 @@ namespace Zainal_PPL_Inventory.Properties {
         internal static System.Drawing.Bitmap client_company_502px {
             get {
                 object obj = ResourceManager.GetObject("client_company_502px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap client_company_50px {
+            get {
+                object obj = ResourceManager.GetObject("client_company_50px", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -286,6 +326,16 @@ namespace Zainal_PPL_Inventory.Properties {
         internal static System.Drawing.Bitmap user_group_man_woman_96px {
             get {
                 object obj = ResourceManager.GetObject("user_group_man_woman_96px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap user_group_man_woman_96px1 {
+            get {
+                object obj = ResourceManager.GetObject("user_group_man_woman_96px1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

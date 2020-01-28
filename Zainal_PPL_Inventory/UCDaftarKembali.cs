@@ -52,11 +52,21 @@ namespace Zainal_PPL_Inventory
 
         private void bunifuFlatButton2_Click(object sender, EventArgs e)
         {
+           
+        }
+
+        private void bunifuFlatButton1_Click(object sender, EventArgs e)
+        {
+          
+        }
+
+        private void btnkembalikan_Click(object sender, EventArgs e)
+        {
             showtodatagrid();
             MessageBox.Show("Data Berhasil Disegarkan", "Informasi", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
-        private void bunifuFlatButton1_Click(object sender, EventArgs e)
+        private void bunifuFlatButton2_Click_1(object sender, EventArgs e)
         {
             Fcetak fc = new Fcetak();
             fc.Show();

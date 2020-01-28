@@ -52,6 +52,7 @@
             // 
             // cbrole
             // 
+            this.cbrole.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbrole.FormattingEnabled = true;
             this.cbrole.Items.AddRange(new object[] {
             "Adminstrator",
@@ -61,7 +62,7 @@
             this.cbrole.Location = new System.Drawing.Point(653, 170);
             this.cbrole.MinimumSize = new System.Drawing.Size(100, 0);
             this.cbrole.Name = "cbrole";
-            this.cbrole.Size = new System.Drawing.Size(279, 21);
+            this.cbrole.Size = new System.Drawing.Size(266, 30);
             this.cbrole.TabIndex = 41;
             // 
             // label4
@@ -442,16 +443,15 @@
             // bunifuFlatButton2
             // 
             this.bunifuFlatButton2.Active = false;
-            this.bunifuFlatButton2.Activecolor = System.Drawing.Color.DodgerBlue;
-            this.bunifuFlatButton2.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.bunifuFlatButton2.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.bunifuFlatButton2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.bunifuFlatButton2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.bunifuFlatButton2.BorderRadius = 5;
-            this.bunifuFlatButton2.ButtonText = "REFRESH";
+            this.bunifuFlatButton2.BorderRadius = 0;
+            this.bunifuFlatButton2.ButtonText = "Refresh";
             this.bunifuFlatButton2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.bunifuFlatButton2.DisabledColor = System.Drawing.Color.Gray;
-            this.bunifuFlatButton2.ForeColor = System.Drawing.Color.White;
             this.bunifuFlatButton2.Iconcolor = System.Drawing.Color.Transparent;
-            this.bunifuFlatButton2.Iconimage = global::Zainal_PPL_Inventory.Properties.Resources.icons8_synchronize_60px;
+            this.bunifuFlatButton2.Iconimage = ((System.Drawing.Image)(resources.GetObject("bunifuFlatButton2.Iconimage")));
             this.bunifuFlatButton2.Iconimage_right = null;
             this.bunifuFlatButton2.Iconimage_right_Selected = null;
             this.bunifuFlatButton2.Iconimage_Selected = null;
@@ -460,21 +460,22 @@
             this.bunifuFlatButton2.IconRightVisible = true;
             this.bunifuFlatButton2.IconRightZoom = 0D;
             this.bunifuFlatButton2.IconVisible = true;
-            this.bunifuFlatButton2.IconZoom = 50D;
+            this.bunifuFlatButton2.IconZoom = 90D;
             this.bunifuFlatButton2.IsTab = false;
-            this.bunifuFlatButton2.Location = new System.Drawing.Point(940, 170);
+            this.bunifuFlatButton2.Location = new System.Drawing.Point(938, 163);
+            this.bunifuFlatButton2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.bunifuFlatButton2.Name = "bunifuFlatButton2";
-            this.bunifuFlatButton2.Normalcolor = System.Drawing.Color.DeepSkyBlue;
-            this.bunifuFlatButton2.OnHovercolor = System.Drawing.Color.DodgerBlue;
-            this.bunifuFlatButton2.OnHoverTextColor = System.Drawing.Color.White;
+            this.bunifuFlatButton2.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.bunifuFlatButton2.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.bunifuFlatButton2.OnHoverTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.bunifuFlatButton2.selected = false;
-            this.bunifuFlatButton2.Size = new System.Drawing.Size(124, 35);
-            this.bunifuFlatButton2.TabIndex = 49;
-            this.bunifuFlatButton2.Text = "REFRESH";
-            this.bunifuFlatButton2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.bunifuFlatButton2.Size = new System.Drawing.Size(126, 42);
+            this.bunifuFlatButton2.TabIndex = 50;
+            this.bunifuFlatButton2.Text = "Refresh";
+            this.bunifuFlatButton2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.bunifuFlatButton2.Textcolor = System.Drawing.Color.White;
             this.bunifuFlatButton2.TextFont = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuFlatButton2.Click += new System.EventHandler(this.bunifuFlatButton2_Click_1);
+            this.bunifuFlatButton2.Click += new System.EventHandler(this.bunifuFlatButton2_Click_2);
             // 
             // UCMasterUser
             // 
@@ -510,7 +511,7 @@
 
         private void bunifuFlatButton2_Click(object sender, System.EventArgs e)
         {
-            throw new System.NotImplementedException();
+
         }
 
         private void bunifuFlatButton3_Click(object sender, System.EventArgs e)

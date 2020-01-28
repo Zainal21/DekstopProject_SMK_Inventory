@@ -148,6 +148,11 @@ namespace Zainal_PPL_Inventory
 
         }
 
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
         
     }
 }

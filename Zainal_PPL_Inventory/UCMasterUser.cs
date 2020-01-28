@@ -152,11 +152,16 @@ namespace Zainal_PPL_Inventory
 
         private void bunifuFlatButton2_Click_1(object sender, EventArgs e)
         {
+
+
+        }
+
+        private void bunifuFlatButton2_Click_2(object sender, EventArgs e)
+        {
             clear();
             showdata();
             bunifuFlatButton4.Enabled = true;
             MessageBox.Show("Data Berhasil di segarkan", "Konfirmasi data", MessageBoxButtons.OK, MessageBoxIcon.Information);
-
         }
     }
 }

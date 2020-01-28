@@ -31,12 +31,6 @@
             this.components = new System.ComponentModel.Container();
             this.panelkonten = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.bunifuTileButton1 = new Bunifu.Framework.UI.BunifuTileButton();
-            this.txtkembali = new Bunifu.Framework.UI.BunifuTileButton();
-            this.bunifuTileButton4 = new Bunifu.Framework.UI.BunifuTileButton();
-            this.txtpinjam = new Bunifu.Framework.UI.BunifuTileButton();
-            this.txtuser = new Bunifu.Framework.UI.BunifuTileButton();
-            this.txtbarang = new Bunifu.Framework.UI.BunifuTileButton();
             this.label5 = new System.Windows.Forms.Label();
             this.txtnamalvl = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
@@ -45,8 +39,14 @@
             this.label2 = new System.Windows.Forms.Label();
             this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.bunifuShadowPanel1 = new Bunifu.UI.WinForm.BunifuShadowPanel.BunifuShadowPanel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.bunifuTileButton1 = new Bunifu.Framework.UI.BunifuTileButton();
+            this.txtkembali = new Bunifu.Framework.UI.BunifuTileButton();
+            this.bunifuTileButton4 = new Bunifu.Framework.UI.BunifuTileButton();
+            this.txtpinjam = new Bunifu.Framework.UI.BunifuTileButton();
+            this.txtuser = new Bunifu.Framework.UI.BunifuTileButton();
+            this.txtbarang = new Bunifu.Framework.UI.BunifuTileButton();
             this.panel2.SuspendLayout();
             this.panel4.SuspendLayout();
             this.bunifuShadowPanel1.SuspendLayout();
@@ -75,6 +75,111 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(137, 664);
             this.panel2.TabIndex = 1;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.BackColor = System.Drawing.Color.Transparent;
+            this.label5.Font = new System.Drawing.Font("Century Gothic", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label5.Location = new System.Drawing.Point(1267, 3);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(23, 36);
+            this.label5.TabIndex = 4;
+            this.label5.Text = ".";
+            // 
+            // txtnamalvl
+            // 
+            this.txtnamalvl.AutoSize = true;
+            this.txtnamalvl.BackColor = System.Drawing.Color.Transparent;
+            this.txtnamalvl.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtnamalvl.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.txtnamalvl.Location = new System.Drawing.Point(1165, 21);
+            this.txtnamalvl.Name = "txtnamalvl";
+            this.txtnamalvl.Size = new System.Drawing.Size(96, 18);
+            this.txtnamalvl.TabIndex = 3;
+            this.txtnamalvl.Text = "Nama Level";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Century Gothic", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label1.Location = new System.Drawing.Point(127, 7);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(256, 42);
+            this.label1.TabIndex = 2;
+            this.label1.Text = "SMK Inventory";
+            // 
+            // panel4
+            // 
+            this.panel4.BackColor = System.Drawing.Color.Black;
+            this.panel4.Controls.Add(this.label8);
+            this.panel4.Controls.Add(this.label2);
+            this.panel4.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel4.Location = new System.Drawing.Point(0, 735);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(1366, 33);
+            this.panel4.TabIndex = 3;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.ForeColor = System.Drawing.Color.White;
+            this.label8.Location = new System.Drawing.Point(22, 4);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(99, 20);
+            this.label8.TabIndex = 35;
+            this.label8.Text = "Version 0.0.1";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(649, 9);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(210, 17);
+            this.label2.TabIndex = 34;
+            this.label2.Text = "Develop By Muhamad Zainal Arifin";
+            // 
+            // bunifuElipse1
+            // 
+            this.bunifuElipse1.ElipseRadius = 2;
+            this.bunifuElipse1.TargetControl = this;
+            // 
+            // bunifuShadowPanel1
+            // 
+            this.bunifuShadowPanel1.BorderColor = System.Drawing.Color.Gainsboro;
+            this.bunifuShadowPanel1.Controls.Add(this.txtnamalvl);
+            this.bunifuShadowPanel1.Controls.Add(this.pictureBox1);
+            this.bunifuShadowPanel1.Controls.Add(this.label5);
+            this.bunifuShadowPanel1.Controls.Add(this.label1);
+            this.bunifuShadowPanel1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.bunifuShadowPanel1.Location = new System.Drawing.Point(0, 0);
+            this.bunifuShadowPanel1.Name = "bunifuShadowPanel1";
+            this.bunifuShadowPanel1.PanelColor = System.Drawing.Color.Empty;
+            this.bunifuShadowPanel1.ShadowDept = 2;
+            this.bunifuShadowPanel1.ShadowTopLeftVisible = false;
+            this.bunifuShadowPanel1.Size = new System.Drawing.Size(1366, 64);
+            this.bunifuShadowPanel1.TabIndex = 4;
+            this.bunifuShadowPanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.bunifuShadowPanel1_Paint);
+            // 
+            // timer1
+            // 
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::Zainal_PPL_Inventory.Properties.Resources.client_company_502px;
+            this.pictureBox1.Location = new System.Drawing.Point(41, 8);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(80, 45);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox1.TabIndex = 5;
+            this.pictureBox1.TabStop = false;
             // 
             // bunifuTileButton1
             // 
@@ -195,111 +300,6 @@
             this.txtbarang.Size = new System.Drawing.Size(102, 101);
             this.txtbarang.TabIndex = 0;
             this.txtbarang.Click += new System.EventHandler(this.bunifuTileButton1_Click);
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.BackColor = System.Drawing.Color.Transparent;
-            this.label5.Font = new System.Drawing.Font("Century Gothic", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label5.Location = new System.Drawing.Point(1267, 3);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(23, 36);
-            this.label5.TabIndex = 4;
-            this.label5.Text = ".";
-            // 
-            // txtnamalvl
-            // 
-            this.txtnamalvl.AutoSize = true;
-            this.txtnamalvl.BackColor = System.Drawing.Color.Transparent;
-            this.txtnamalvl.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtnamalvl.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.txtnamalvl.Location = new System.Drawing.Point(1165, 21);
-            this.txtnamalvl.Name = "txtnamalvl";
-            this.txtnamalvl.Size = new System.Drawing.Size(96, 18);
-            this.txtnamalvl.TabIndex = 3;
-            this.txtnamalvl.Text = "Nama Level";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Century Gothic", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label1.Location = new System.Drawing.Point(127, 7);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(256, 42);
-            this.label1.TabIndex = 2;
-            this.label1.Text = "SMK Inventory";
-            // 
-            // panel4
-            // 
-            this.panel4.BackColor = System.Drawing.Color.Black;
-            this.panel4.Controls.Add(this.label8);
-            this.panel4.Controls.Add(this.label2);
-            this.panel4.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel4.Location = new System.Drawing.Point(0, 735);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(1366, 33);
-            this.panel4.TabIndex = 3;
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.ForeColor = System.Drawing.Color.White;
-            this.label8.Location = new System.Drawing.Point(22, 4);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(99, 20);
-            this.label8.TabIndex = 35;
-            this.label8.Text = "Version 0.0.1";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(649, 9);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(210, 17);
-            this.label2.TabIndex = 34;
-            this.label2.Text = "Develop By Muhamad Zainal Arifin";
-            // 
-            // bunifuElipse1
-            // 
-            this.bunifuElipse1.ElipseRadius = 2;
-            this.bunifuElipse1.TargetControl = this;
-            // 
-            // bunifuShadowPanel1
-            // 
-            this.bunifuShadowPanel1.BorderColor = System.Drawing.Color.Gainsboro;
-            this.bunifuShadowPanel1.Controls.Add(this.txtnamalvl);
-            this.bunifuShadowPanel1.Controls.Add(this.pictureBox1);
-            this.bunifuShadowPanel1.Controls.Add(this.label5);
-            this.bunifuShadowPanel1.Controls.Add(this.label1);
-            this.bunifuShadowPanel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.bunifuShadowPanel1.Location = new System.Drawing.Point(0, 0);
-            this.bunifuShadowPanel1.Name = "bunifuShadowPanel1";
-            this.bunifuShadowPanel1.PanelColor = System.Drawing.Color.Empty;
-            this.bunifuShadowPanel1.ShadowDept = 2;
-            this.bunifuShadowPanel1.ShadowTopLeftVisible = false;
-            this.bunifuShadowPanel1.Size = new System.Drawing.Size(1366, 64);
-            this.bunifuShadowPanel1.TabIndex = 4;
-            this.bunifuShadowPanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.bunifuShadowPanel1_Paint);
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::Zainal_PPL_Inventory.Properties.Resources.client_company_502px;
-            this.pictureBox1.Location = new System.Drawing.Point(41, 8);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(80, 45);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pictureBox1.TabIndex = 5;
-            this.pictureBox1.TabStop = false;
-            // 
-            // timer1
-            // 
-            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // Fmenu
             // 
